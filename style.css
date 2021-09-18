@@ -34,9 +34,23 @@ body{
     border-radius: 5px;
     color: white;
     border: solid 2px white;
+    width: 80px;
 }
 .right{
     color: wheat;
     margin-top: 100px;
     margin-bottom: 0px;
+}
+.form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#name{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#email{
+    margin-bottom: 20px;
+    padding: 10px;
 }
