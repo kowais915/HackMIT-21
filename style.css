@@ -28,6 +28,15 @@ body{
     
 }
 
+/* trash it styling */
+
+#trash{
+    color: turquoise;
+
+}
+#it{
+    color: tomato;
+}
 #signIn-button{
     background-color: #0F90F3;
     padding: 5px 5px;
