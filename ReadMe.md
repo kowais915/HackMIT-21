@@ -1,5 +1,5 @@
 # HacKMIT'21
-### This app aims towards a cleaner environmnet. Since littering is a major problem in Pakistan so I thought there's should be a fun app that locates bins and encourage people to avoid littering. The locates trash bins on campus. I am working on more functionalities.
+### This app aims towards a cleaner environmnet. Since littering is a major problem in Pakistan so I thought there's should be a fun app that locates bins and encourage people to avoid littering. The locates trash bins on campus. I am working on more functionalities. The map shown is my school - Ghulam Ishaq Khan Institute of Engineering Sciences & Technology.
 [Check out the app here.](https://kowais915.github.io/HackMIT-21/)
 
 $~~~~$
