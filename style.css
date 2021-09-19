@@ -19,7 +19,7 @@ body{
     /* flex-wrap: wrap; */
 
 
-    height: 700px;
+    height: 850px;
     width: 80vw;
 
     flex-direction: column;
@@ -35,7 +35,7 @@ body{
     margin-left: 10px;
     margin-right: 10px;
     padding: 0;
-    height: 600px;
+    height: 800px;
 
     /* width: 70vw; */
 
