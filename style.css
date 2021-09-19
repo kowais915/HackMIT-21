@@ -22,7 +22,7 @@ body{
     /* flex-wrap: wrap; */
 
 
-    height: 810px;
+    height: 900px;
     width: 90vw;
 
     flex-direction: column;
@@ -39,7 +39,7 @@ body{
     margin-right: 2px;
     margin-bottom: 2px;
     padding: 0;
-    height: 800px;
+    height: 890px;
 
     /* width: 70vw; */
 
