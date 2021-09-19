@@ -1,18 +1,11 @@
+function initMao(){
 
 
-alert("ffff")
-const login = document.querySelector('button')
-const logout = document.getElementById('signOff-button');
+map = new google.maps.Map(document.getElementById('map'), {
+  center: {lat: -34.397, lng: 150.644},
+  zoom: 8,
+  mapId: '80a0006913cc76e6'
+});
 
-function loginF(){
-    provider = new firebase.auth.GoogleAuthProvider();
-                 firebase.auth().signInWithPopup(provider).then(function(result){
-
-                    console.log("Success!");
-
-                }).catch(function(err){
-
-                    console.log(err);
-                    console.log("Failed");
-                })
 }
+

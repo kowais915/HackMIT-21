@@ -21,6 +21,15 @@ body{
     
 }
 
+/* map */
+#map{
+    margin: 0;
+    padding: 0;
+    height: 50vh;
+
+}
+
+
 /* welcome note */
 
 .welcome{
@@ -32,6 +41,7 @@ body{
     
     
 }
+
 
 /* trash it styling */
 

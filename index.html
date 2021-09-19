@@ -25,8 +25,14 @@
                 <div><p>This app was created during HackMIT'21</p></div>
             </div>
 
+<!-- The Map -->
 
-          
+
+
+
+            <div id="map"></div>
+
+         
 
            
 
@@ -39,6 +45,24 @@
 
   
 
+<script >
+
+function initMap(){
+
+
+map = new google.maps.Map(document.getElementById('map'), {
+  center: {lat: -34.397, lng: 150.644},
+  zoom: 8,
+  mapId: '80a0006913cc76e6'
+});
+
+}
+
+</script>
+
+<script async defer
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqKY7yWS4EDi4kwyO90jAYRDpRVUGoFQM&callback=initMap"
+></script>
 
 
 
