@@ -25,7 +25,8 @@ body{
 #map{
     margin: 0;
     padding: 0;
-    height: 50vh;
+    height: 70vh;
+    width: 70vw;
 
 }
 
