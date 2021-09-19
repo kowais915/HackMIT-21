@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
   
+<script src="app.js" defer></script>
    
     <title>The App</title>
 
@@ -34,12 +35,7 @@
 
             <div id="map"></div>
 
-          
-
-         
-
-           
-
+        
 
 
 
@@ -147,6 +143,25 @@ const locations = [
 
 
 
+const myloc = document.querySelector('button');
+
+myloc.addEventListener('click', ()=>{
+
+    const success = (position) =>{
+        console.log(position);
+    }
+    const err = (position)=>{
+        console.error(error);
+    }
+    navigator.geolocation.getCurrentPosition();
+
+
+
+
+})
+
+
+
 
 </script>
 
@@ -155,7 +170,6 @@ const locations = [
 <script async 
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqKY7yWS4EDi4kwyO90jAYRDpRVUGoFQM&callback=initMap"
 defer></script>
-
 
 
 
