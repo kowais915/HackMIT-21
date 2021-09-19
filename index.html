@@ -61,13 +61,95 @@ map = new google.maps.Map(document.getElementById('map'), {
   mapId: '80a0006913cc76e6'
 });
 
+
+
+
+// const marker = new google.maps.Marker({
+//     position: {lat:34.06959619456082, lng:72.64465545778673  },
+//     map: map,
+//   });
+
+// }
+
+
+//34.06959619456082, 72.64465545778673
+
+
+
+
+
+
+
+
+// #############################
+// The following snippet is from Google Maps Docs
+ 
+ const labels = "123456789";
+
+
+const markers = locations.map((location, i) => {
+  return new google.maps.Marker({
+    position: location,
+    map:map,
+    icon:{
+        url:"icons8-bin-64.png",
+        scaledSize: new google.maps.Size(43, 35)
+    },
+    title: "Trashbin",
+    label: labels[i % labels.length],
+  });
+});
+
+
+new MarkerClusterer(map, markers, {
+  imagePath:
+    "https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/m",
+});
 }
+
+const locations = [
+{ lat: 34.06969614717942, lng: 72.64506697279018 },
+
+// 34.06969614717942, 72.64506697279018
+{ lat: 34.069669488547866, lng: 72.64412425320535 },
+
+
+{ lat: 34.06949045111916, lng: 72.64325971290377},
+
+
+{ lat: 34.07105987177502, lng: 72.64357702123158 },
+
+
+{ lat: 34.07022564296842, lng: 72.6420410804567},
+
+{ lat: 34.068717404519056, lng: 72.64556421219011},
+
+{ lat: 34.071352486203615, lng: 72.64526917068682},
+
+{ lat: 34.07118087576404, lng: 72.64842801358517},
+
+
+{ lat: 34.069708397447705, lng: 72.64097237769371},
+// , , 
+
+];
+
+
+
+
+// #############################
+
+
+
+
 
 </script>
 
-<script async defer
+
+
+<script async 
 src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqKY7yWS4EDi4kwyO90jAYRDpRVUGoFQM&callback=initMap"
-></script>
+defer></script>
 
 
 
