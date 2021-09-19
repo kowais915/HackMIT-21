@@ -19,7 +19,7 @@ body{
     /* flex-wrap: wrap; */
 
 
-    height: 850px;
+    height: 810px;
     width: 80vw;
 
     flex-direction: column;
@@ -88,7 +88,7 @@ body{
 
 .right{
     color: wheat;
-    margin-top: 100px;
+    margin-top: 40px;
     margin-bottom: 0px;
 }
 .form{
