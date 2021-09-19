@@ -138,7 +138,7 @@ const locations = [
 
 
 
-// #############################
+// #############################getting location###########
 
 
 
@@ -153,7 +153,7 @@ myloc.addEventListener('click', ()=>{
     const err = (position)=>{
         console.error(error);
     }
-    navigator.geolocation.getCurrentPosition();
+    navigator.geolocation.getCurrentPosition(success, err);
 
 
 
