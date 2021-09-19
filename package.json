@@ -1,0 +1,24 @@
+{
+  "name": "HackMIT-21",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "firebase": "^9.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kowais915/HackMIT-21.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kowais915/HackMIT-21/issues"
+  },
+  "homepage": "https://github.com/kowais915/HackMIT-21#readme",
+  "description": ""
+}

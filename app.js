@@ -1,30 +1,18 @@
-document.addEventListener('DOMcontentLoaded', event=>{
-    const app = firebase.app();
-    // console.log(app);
-})
 
 
-// const button = document.getElementById('signIn-button');
+alert("ffff")
+const login = document.querySelector('button')
+const logout = document.getElementById('signOff-button');
 
+function loginF(){
+    provider = new firebase.auth.GoogleAuthProvider();
+                 firebase.auth().signInWithPopup(provider).then(function(result){
 
+                    console.log("Success!");
 
+                }).catch(function(err){
 
-
-
-// const userEmail = document.getElementById('email');
-// const userPassword = document.getElementById('password');
-
-
-// button.addEventListener('click', ()=>{
-
-//     auth.createUserWithEmailAndPassword(userEmail.value, userPassword.value);
-//     alert("Done!");
-
-
-// })
-
-
-
-
-
-
+                    console.log(err);
+                    console.log("Failed");
+                })
+}

@@ -50,6 +50,19 @@ body{
     border: solid 2px white;
     width: 80px;
 }
+
+#signOff-button{
+    background-color: #0F90F3;
+    padding: 5px 5px;
+    border-radius: 5px;
+    color: white;
+    border: solid 2px white;
+    width: 80px;
+    margin-top: 10px;
+}
+
+
+
 .right{
     color: wheat;
     margin-top: 100px;
@@ -58,13 +71,4 @@ body{
 .form{
     padding-top: 20px;
     padding-bottom: 20px;
-}
-.name{
-    margin-bottom: 20px;
-    padding: 10px;
-}
-
-.email{
-    margin-bottom: 20px;
-    padding: 10px;
 }
