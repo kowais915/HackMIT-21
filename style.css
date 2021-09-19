@@ -74,26 +74,24 @@ body{
 #it{
     color: tomato;
 }
-#signIn-button{
+#bt-1{
     background-color: #0F90F3;
     padding: 5px 5px;
     border-radius: 5px;
     color: white;
     border: solid 2px white;
-    width: 80px;
+    width: 100px;
 }
 
-#signOff-button{
+#bt-2{
     background-color: #0F90F3;
     padding: 5px 5px;
     border-radius: 5px;
     color: white;
     border: solid 2px white;
-    width: 80px;
+    width: 100px;
     margin-top: 10px;
 }
-
-
 
 .right{
     color: wheat;
