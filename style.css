@@ -59,12 +59,12 @@ body{
     padding-top: 20px;
     padding-bottom: 20px;
 }
-#name{
+.name{
     margin-bottom: 20px;
     padding: 10px;
 }
 
-#email{
+.email{
     margin-bottom: 20px;
     padding: 10px;
 }
